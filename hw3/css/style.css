@@ -1,3 +1,7 @@
-body {
-    background-color: red;
+.site-navigation-list {
+    list-style: none;
+    text-transform: uppercase;
+}
+.site-navigation-color {
+    color: #03a9f4;
 }

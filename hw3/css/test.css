@@ -1,3 +1,5 @@
+
+
 html {
     box-sizing: border-box;
 }
@@ -10,22 +12,22 @@ html {
 
 body {
     font-family: 'Playfair Display Regular';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
 }
-
 
 .container {
     width: 900px;
-    margin: 0 auto;
+    margin: 0;
 }
 
-.header__nav {
-    padding-top: 73px;
-    padding-bottom: 104px;
+.header {
+    padding-top: ;
+    padding-bottom: ;
 }
-
 .header__nav-list {
     font-size: 0px;
-    padding: 0;
     text-align: center;
 }
 
@@ -35,66 +37,69 @@ body {
 }
 
 .header__nav-item:not(:last-child) {
-    margin-right: 120px;
+    margin-right: 60px;
 }
 
 .header__nav-link {
     display: inline-block;
     text-decoration: none;
     text-align: center;
-    
 }
 
-.header__nav-link:hover,
-.header__nav-link:focus {
-    color:#03a9f4;
+.header__nav-link:hover {
+    color: aqua;
 }
 
 .main__section {
-    margin: 0;
-    padding: 0;
+    max-width: 100%;
+    padding: 192px 0px 0px 115px;
 }
 
-.main__saction-div {
-    font-size: 0;
-}
 
 .main__section-art {
     display: inline-block;
-    width: 420px;
+    width: 421spx;
     margin-right: 60px;
 }
 
-.main__section-art:nth-child(2n) {
-    margin-right: 0px;
+/* .main__section-art:nth-child(even) {
+    padding-left: 30px;
 }
+.main__section-art:nth-child(odd) {
+    padding-right: 30px;
+} */
 
 .main__section-img {
+    display: block;
     width: 420px;
     height: 280px;
 }
 
 .main__section-title {
-    margin-bottom: 27px;
-    font-size: 14px;
-    color: #b4ad9e;
+    font-family: 'ubuntu light';
+    line-height: 17px;
+    color: #818181;
+    width: 20px;
+
 }
 
 .main__section-main_title {
-    font-size: 30px;
-    color: #626262;
     text-align: left;
-    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 .main__section-text {
-    font-size: 14px;
     text-align: left;
-    color: #626262;
 }
 
 .button {
-    display: block;
-    margin: auto;
+    /* display: block; */
+    cursor: pointer;
+    margin:auto; 
     padding: 5px 5px 5px 5px;
+}
+
+.button:hover {
+    background-color: #fa1;
 }

@@ -53,10 +53,12 @@ body {
 .main__section {
     margin: 0;
     padding: 0;
+    margin-bottom: 70px;
 }
 
 .main__saction-div {
     font-size: 0;
+    margin-bottom: 70px;
 }
 
 .main__section-art {
@@ -99,6 +101,6 @@ body {
 
 .button {
     display: block;
-    margin: 70px auto;
+    margin: auto;
     padding: 10px 10px 10px 10px;
 }

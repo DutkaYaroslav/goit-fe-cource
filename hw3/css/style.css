@@ -27,7 +27,6 @@ body {
     font-size: 0px;
     padding: 0;
     text-align: center;
-    color: #626262
 }
 
 .header__nav-item {
@@ -43,6 +42,7 @@ body {
     display: inline-block;
     text-decoration: none;
     text-align: center;
+    color: #626262
     
 }
 

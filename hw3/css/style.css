@@ -41,9 +41,8 @@ body {
 .header__nav-link {
     display: inline-block;
     text-decoration: none;
-    text-align: center;
-    color: #626262
-    
+    color: #626262;
+    text-align: center;    
 }
 
 .header__nav-link:hover,

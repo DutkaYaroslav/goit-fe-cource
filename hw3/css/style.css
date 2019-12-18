@@ -27,6 +27,7 @@ body {
     font-size: 0px;
     padding: 0;
     text-align: center;
+    color: #626262
 }
 
 .header__nav-item {
@@ -72,18 +73,21 @@ body {
 .main__section-img {
     width: 420px;
     height: 280px;
+    margin-bottom: 30px;
 }
 
 .main__section-title {
-    margin-bottom: 27px;
     font-size: 14px;
     color: #b4ad9e;
+    margin: 0;
+    margin-bottom: 27px;
 }
 
 .main__section-main_title {
     font-size: 30px;
     color: #626262;
     text-align: left;
+    margin: 0;
     margin-bottom: 24px;
 }
 
@@ -91,10 +95,11 @@ body {
     font-size: 14px;
     text-align: left;
     color: #626262;
+    margin: 0;
 }
 
 .button {
     display: block;
-    margin: auto;
-    padding: 5px 5px 5px 5px;
+    margin: 70px auto;
+    padding: 10px 10px 10px 10px;
 }

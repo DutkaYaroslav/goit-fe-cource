@@ -18,6 +18,13 @@ body {
     margin: 0 auto;
 }
 
+/* для того, щоб коректного відображалося на мобільних пристроях */
+/* .container {
+    width: 100%;
+    max-width: 900;
+    margin: auto;
+} */
+
 .header__nav {
     padding-top: 73px;
     padding-bottom: 104px;
@@ -53,7 +60,7 @@ body {
 .main__section {
     margin: 0;
     padding: 0;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .main__saction-div {
@@ -67,7 +74,7 @@ body {
     margin-right: 60px;
 }
 
-.main__section-art:nth-child(2n) {
+.main__section-art:nth-child(2n+4) {
     margin-right: 0px;
 }
 

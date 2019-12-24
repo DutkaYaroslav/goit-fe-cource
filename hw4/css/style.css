@@ -45,7 +45,6 @@ h3 {
     float: left;
     margin: 0;
     padding: 0;
-    padding-left: 30px;
     font-family: "Roboto";
     font-size: 30px;
     font-weight: 300;
@@ -88,10 +87,9 @@ h3 {
 }
 
 .container {
-    width: 1170px;
+    width: 1110px;
     margin: 0 auto;
     margin-bottom: 100px;
-    padding-left: 0;
 }
 .container-title {
     text-align: center;
@@ -112,17 +110,16 @@ h3 {
 
 .container-list {
     display: inline-block;
+    padding: 0;
     font-size: 0px;
-    /* margin-right: 35px; */
-    text-align: center;
 }
 
 .container-item {
-    display: block;
-    width: 255px;
     float: left;
+    width: 255px;
     list-style: none;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .container-item:nth-child(4n) {
@@ -135,12 +132,13 @@ h3 {
 
 .contaner-list__name {
     float: left;
-    width: 185px;
+    width: 200px;
+    margin: 0;
+    margin-bottom: 10px;
     margin-top: 0px;
     padding-left: 15px;
     font-size: 14px;
     text-align: left;
-    /* background-color: #000; */
     color: #fff;
 }
 
@@ -148,26 +146,23 @@ h3 {
     float: left;
     width: 55px;
     height: 30px;
+    margin: 0;
+    margin-bottom: 10px;
     margin-top: 0px;
     font-size: 14px;
-    background-color: #fff;
-    opacity: 0.4;
+    background-color:rgba(255, 255, 255, 0.3);
     color: #fff;
 }
 
 
 
 .containeritem__link {
-    line-height: 40px;
+    float: left;
+    line-height: 30px;
     text-align: center;
     background-color: #000;
 }
 
-
-/* .containeritem__link:hover {
-    height: 40px;
-    background-color: #4ec6ab;
-} */
 
 .container-item:hover .containeritem__link {
     background-color: #4ec6ab;
@@ -198,18 +193,18 @@ h3 {
 }
 
 .wrapper-item {
-    display: inline-block;
-    /* float: left; */
+    float: left;
     width: 350px;
     margin-right: 30px;
     margin-top: 80px;
+    padding: 0;
     padding-bottom: 45px;
 }
 
-/* .wrapper-img {
-    width: 350px;
-    height: 260px;
-} */
+.wrapper-item:last-child {
+    margin-right: 0;
+}
+
 
 .wrapper-title-text {
     margin: 0;

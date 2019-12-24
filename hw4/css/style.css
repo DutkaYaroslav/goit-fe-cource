@@ -41,7 +41,6 @@ h3 {
 }
 
 .logo {
-    display: inline-block;
     float: left;
     margin: 0;
     padding: 0;
@@ -56,18 +55,21 @@ h3 {
     color: #4ec6ab;
 }
 
-
+.header-nav__logo {
+    margin: 0;
+    padding: 0;
+}
 
 .header__nav-list {
     float: right;
-    width: 550 px;
+    width: 465 px;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .header__nav-item {
-    display: inline-block;
+    float: left;
     margin-right: 35px;
 }
 

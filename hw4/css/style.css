@@ -247,8 +247,13 @@ h3 {
 }
 
 .entry-link {
+    display: block;
+    width: 160px;
+    height: 50px;
     margin: 0;
-    padding: 10px 25px 10px 25px;
+    padding: 0;
+    padding-top: 15px;
+    text-align: center;;
     text-decoration: none;
     color: #fff;
     background-color: #4ec6ab;

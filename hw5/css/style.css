@@ -19,7 +19,7 @@ body {
     color: #0f0101;
     font-size: 14px;
     line-height: 21px;
-    background-color: #e9f0fd;
+    /* background-color: #e9f0fd; */
 }
 
 h2 {
@@ -78,6 +78,7 @@ h3 {
 
 
 .header_nav-link {
+    display: block
     font-family: "Open Sans Bold";
     font-weight: bold;
     line-height: 11px;
@@ -108,7 +109,8 @@ h3 {
 
 .main-slider {
     position: relative;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    /* margin-bottom: 100px; */
 }
 
 
@@ -155,6 +157,9 @@ h3 {
     background-image: url('../img/next.png');
 }
 
+.slider-button__position {
+    position: absolute;
+}
 
 .slider-title {
     position: absolute;
@@ -185,7 +190,14 @@ h3 {
 .container {
     width: 1110px;
     margin: 0 auto;
-    margin-bottom: 100px;
+}
+
+.bcg-color {
+    background-color: #e9f0fd;
+}
+
+.wrapper {
+    padding-bottom: 100px;
 }
 
 .header {
@@ -226,7 +238,6 @@ h3 {
     width: 255px;
     list-style: none;
     margin-right: 30px;
-    margin-bottom: 30px;
 }
 
 .container-item:nth-of-type(n+5) {
@@ -243,20 +254,33 @@ h3 {
 }
 
 .container-overlay__icons {    
+    
+}
+
+
+.container-overlay__all {
+    display: none;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+
+.container-item:hover .container-overlay__icons {
     position: absolute;
     top: 13px;
     left: 7px;
     width: 100%;
     height: 260px;
-    background-color: rgba(10, 10, 10, 0.59)
+    background-color: rgba(10, 10, 10, 0.59) 
 }
 
-
-/* .container-overlay__icons:hover {
-    opacity: 0.549;
-} */
-
-.container-overlay__all {
+.container-item:hover .container-overlay__all {
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
@@ -268,6 +292,7 @@ h3 {
 }
 
 .container-overlay__icons-clock {
+    display: none;
     top: 75px;
     right: 35px;
 
@@ -275,6 +300,14 @@ h3 {
 }
 
 .container-overlay__icons-arrows {
+    display: none;
+    top: 75px;
+    right: 90px;
+    background-image: url('../img/arrows.png');
+    background-color: #4ec6ab;
+}
+
+.container-item:hover .container-overlay__icons-arrows {
     top: 75px;
     right: 90px;
     background-image: url('../img/arrows.png');
@@ -282,6 +315,7 @@ h3 {
 }
 
 .container-overlay__icons-heart {
+    display: none;
     background-image: url('../img/heart.png');
     top: 75px;
     left: 45px;
@@ -289,6 +323,7 @@ h3 {
 
 
 .container-overlay__icons-curt {
+    display: none;
     position: absolute;
     top: 135px;
     left: 45px;
@@ -303,7 +338,24 @@ h3 {
     text-align: end;
 }
 
+.container-item:hover .container-overlay__icons-curt {
+    position: absolute;
+    top: 135px;
+    left: 45px;
+
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    background-image: url('../img/curt.png');
+    background-color: #323232;;
+    background-repeat: no-repeat;
+    background-position: 13px;
+    text-align: end;
+}
+
+
 .container-overlay__curt-text {
+    display: none;
     font-size: 14px;
     font-family: "OpenSans";
     color: rgb(255, 255, 255);
@@ -311,10 +363,10 @@ h3 {
     /* line-height: 2.286; */
     /* text-align: right; */
     /* position: absolute; */
-    
-    
   }
 
+
+  
 
 .container-img {
     display: block;
@@ -369,6 +421,10 @@ h3 {
     background-color: #4ec6ab;
 }
 
+.container-item:hover .container-overlay {
+    background-color: green;
+}
+
 .footer {
     display: block;
     height: auto;
@@ -379,6 +435,8 @@ h3 {
 }
 
 .footer-text {
+    margin: 0;
+    padding: 20px;
     color: #e9f0fd;
     text-align: center;
 }

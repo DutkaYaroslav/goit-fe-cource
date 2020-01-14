@@ -8,6 +8,7 @@ html {
     box-sizing: inherit;
 }
 
+
 .container {
     width: 1200px;
     max-width: 100%;
@@ -22,7 +23,7 @@ html {
     padding-top: 35px;
     justify-content: space-between;
     min-height: 65px;
-    margin-bottom: 125px;
+    padding-bottom: 125px;
 
 }
 
@@ -35,17 +36,7 @@ html {
     padding: 0;
 }
 
-/* .nav-items__link-about::after {
-    display: none;
-    content: "";
-    width: 54px;
-    height: 3px;
-    margin: auto;
-    background-color: #f38181;
-    background-position:center;
-    background-repeat: no-repeat;
-    margin-top: 30px;
-} */
+
 
 .nav-logo {
     display: flex;
@@ -101,10 +92,14 @@ html {
 
 .page-title__text {
     display: block;
+    color: #333333;
+    text-align: center;
     font-family: "Kaushan Script";
+    font-style: normal;
+    font-weight: 400;
     text-transform: initial;
     font-size: 24px;
-    font-weight: 400;
+    line-height: 29px;
     padding: 0;
     margin: 0;
     margin-bottom: 22px;
@@ -112,10 +107,13 @@ html {
 
 .page-title-headline {
     display: block;
+    color: #333333;
     font-family: "Montserrat";
-    text-transform: initial;
     font-size: 30px;
-    font-weight: 900;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: initial;
     padding: 0;
     margin: 0;
 }
@@ -241,9 +239,11 @@ html {
     margin: 0;
     padding: 0;
     font-family: "Roboto";
-    font-weight: 300;
-    color: #999999;
+    font-style: normal;
+    font-weight: 400;
     font-size: 15px;
+    line-height: 24px;
+    color: #999999;
 }
 
 
@@ -304,6 +304,10 @@ html {
     font-size: 15px;
 }
 
+.none {
+    list-style: none;
+}
+
 .box-list {
     display: flex;
     justify-content: space-between;
@@ -327,6 +331,8 @@ html {
 .box-overlay {
     display: flex;
     position: absolute;
+    padding: 0;
+    margin: 0;
     width: 224px; 
 }
 
@@ -338,6 +344,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255);
+
 
     display: inline-block;
     width: 56px;
@@ -357,6 +364,8 @@ html {
     transition-timing-function: linear;
     transition-delay: 0.2s;
 }
+
+
 
 .box-bcg {
     width: 380px;
@@ -531,7 +540,7 @@ footer {
 }
 
 
-span {
+.footer-span {
     color: #f38181;
 }
 

@@ -1,0 +1,41 @@
+
+  /* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url('../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-slab-v10-latin/roboto-slab-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-slab-v10-latin/roboto-slab-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* marck-script-regular - latin - similar to wisdom script */ 
+@font-face {
+    font-family: 'Marck Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Marck Script'), local('MarckScript-Regular'),
+         url('../fonts/MarckScript-Regular WhatFontIs.commarck-script-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/MarckScript-Regular WhatFontIs.commarck-script-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* baskervville-italic - latin - similar to droidserif italic */
+@font-face {
+    font-family: 'Baskervville';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Baskervville Italic'), local('Baskervville-Italic'),
+         url('../fonts/baskervville-v1-latin/baskervville-v1-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/baskervville-v1-latin/baskervville-v1-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }

@@ -34,7 +34,7 @@
             </ul>
         </nav>
     </header>
-    <main class="container">
+    <main>
         <section class="page">
             <div class="page-title">
                 <h2 class="page-title__headline">SERVICES</h2>
@@ -55,8 +55,6 @@
                 </li>
             </ul>
         </section>
-    </main>  
-    <footer>
         <section class="wrapper">
             <div class="wrapper-title">
                 <h2 class="wrapper-title__headline">CONTACT US</h2>
@@ -65,15 +63,15 @@
             <form class="wrapper-form" action="">
                <div class="wrapper-form__block">
                    <div class="wrapper-form__list">
-                        <input class="wrapper-form__list-input" type="text" placeholder="YOUR NAME *">
-                        <input class="wrapper-form__list-input" type="email" placeholder="YOUR E_MAIL *">
-                        <input class="wrapper-form__list-input"  type="text" placeholder="SUBJECT">
-                    </div>                
-                    <input class="wrapper-form__last-input" type="" placeholder="YOUR MESSAGE *">
+                        <input class="wrapper-form__list-input" name="your_name" type="text" placeholder="YOUR NAME *" required>
+                        <input class="wrapper-form__list-input valid invalid" name="email" autofocus type="email" placeholder="YOUR E_MAIL *" required>
+                        <input class="wrapper-form__list-input" type="text" placeholder="SUBJECT">
+                    </div>   
+                    <textarea class="wrapper-form__last-input" placeholder="YOUR MESSAGE *"></textarea>             
                 </div>
                 <button class="wrapper-form__button">SEND MESSAGE</button>
             </form>
         </section>
-    </footer>
+    </main>  
 </body>
 </html>

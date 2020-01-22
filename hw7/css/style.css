@@ -22,6 +22,7 @@ html {
 }
 
 .nav-logo {
+    display: block;
     text-decoration: none;
 }
 
@@ -30,6 +31,8 @@ html {
     font-family: 'Baskervville';
     font-size: 26px;
     line-height: 41px;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-list {
@@ -47,6 +50,7 @@ html {
 }
 
 .nav-item__list {
+    display: block;
     text-decoration: none;
     color: #000;
 }
@@ -75,7 +79,7 @@ html {
 .page-title__headline {
     margin: 0;
     padding: 0;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
 }
 
 .page-title__text {
@@ -98,8 +102,7 @@ html {
 
 .page-item {
     display: flex;
-    position: relative;
-    
+    position: relative;    
 
     flex-direction: column;
     margin: 0 auto;
@@ -130,8 +133,6 @@ html {
     background-image: url("../img/Group1.png");
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 80px;
-    border-color: #fed136;
 }
 
 .page-item__security:before {
@@ -149,8 +150,11 @@ html {
 
 
 .page-item__head {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 90px;
+    margin-bottom: 25px;
 }
 
 .page-item__text {
@@ -159,7 +163,7 @@ html {
     margin: 0;
     padding: 0;
 
-    font-family: 'Roboto';
+    font-family: "Roboto", "Arial", "sans-serif";
     font-size: 14px;
     line-height: 22px;
 }
@@ -173,8 +177,7 @@ html {
     background-size: cover;
     background-position: center;
     margin: auto;
-    width: 1400px;
-    min-height: 670px;
+    padding-bottom: 30px;
 }
 
 
@@ -185,9 +188,14 @@ html {
     text-align: center;
     color: #ffffff;
     margin-bottom: 30px;
+}
 
+.wrapper-title__headline {
+    margin: 0;
+    padding: 0;
     font-family: "Montserrat";
     font-size: 30px;
+    margin-bottom: 22px;
 }
 
 .wrapper-title__text {
@@ -219,10 +227,24 @@ html {
       margin-right: 30px;
       margin-bottom: 30px;
   } 
+  
+
+  .wrapper-form__list-input:valid:focus {
+    border-color: green;
+    outline: none;
+  }
+
+  .wrapper-form__list-input:invalid:focus {
+      border-color: red;
+      outline: none;
+  }
 
   .wrapper-form__last-input {
+    display: block;
+    padding-top: 2px;
     width: 455px;
     padding: 0;
+    line-height: 20px;
   }
 
   .wrapper-form__list-input:last-child {

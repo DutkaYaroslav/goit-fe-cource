@@ -333,12 +333,12 @@ html {
     .main-list {
         display: flex;
         flex-wrap: nowrap;
-        width: 940px;
+        width: 939px;
     }
     
 
     .wrapper-nav {
-        max-width: 940px;
+        max-width: 939px;
 
     }
 

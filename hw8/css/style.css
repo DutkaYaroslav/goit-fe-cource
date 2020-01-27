@@ -325,7 +325,7 @@ html {
 }
 
 
-@media (min-width: 960px) {
+@media (min-width: 940px) {
     .wrapper {
         background-image: url('../img/Vectordesctop.jpg');
     }

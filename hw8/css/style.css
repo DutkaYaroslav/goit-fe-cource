@@ -15,7 +15,7 @@ html {
 }
 
 .wrapper {
-    font-family: 'Montserrat' Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
     width: 100%;
     height: 540px;
@@ -47,12 +47,17 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 165px;
+    width: 200px;
     margin: 0 auto;
     padding:0;
     list-style: none;
     text-align: center;
     margin-bottom: 120px;
+}
+
+.wrapper-nav_item {
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -80,9 +85,7 @@ html {
 
 }
 
-.wrapper-box {
-    color: #fff;
-}
+
 
 .wrapper-box_headline-name {
     justify-content: end;
@@ -93,12 +96,21 @@ html {
     margin-bottom: 30px;
 }
 
+
+.wrapper-box {
+    color: #fff;
+}
+
 .wrapper-box__headline {
     font-size: 30px;
     margin: 0;
     padding: 0;
-    margin-bottom: 2px;
+    margin-bottom: 22px;
+}
 
+
+.new-row {
+    display: block;
 }
 
 
@@ -108,7 +120,7 @@ html {
 }
 
 .wrapper-box__text {
-    font-family: 'Roboto' Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 700;
     font-size: 18px;
     width: 214px;
@@ -135,7 +147,7 @@ html {
     flex-direction: column;
     align-items: center;
 
-    font-family: 'Montserrat' Arial, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-weight: 700;
 
 }
@@ -243,7 +255,7 @@ html {
 }
 
 .main-list__item-description {
-    font-family: 'Roboto' Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-weight: 700;
     font-size: 14px;
     color: #666666;

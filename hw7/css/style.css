@@ -44,7 +44,7 @@ html {
     width: 520px;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, sans-serif;
     font-size: 14px;
     line-height: 41px;
 }
@@ -245,6 +245,7 @@ html {
     width: 455px;
     padding: 0;
     line-height: 20px;
+    resize: none;
   }
 
   .wrapper-form__list-input:last-child {

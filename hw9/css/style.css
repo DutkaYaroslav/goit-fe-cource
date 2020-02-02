@@ -36,13 +36,57 @@
     padding: 5px 20px 5px 20px;
 }
 
+
+.wrapper_headline-name {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 22px;
+}
+
+.all-row {
+    color: #fff;
+}
+
+.wrapper-row__headline {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+.wrapper-row__text {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    /* width: 214px; */
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.wrapper-button {
+    width: 280px;
+    color: #fff;
+    background-color: #ff4e50;
+    border-radius: 40px 40px 40px 40px;
+    padding: 15px 0 15px 0;
+    border-style: none;
+}
+
+
 .main-headline {
     font-size: 22px;
-    width: 240px;
+    /* width: 240px; */
+    color: #333333;
     text-align: center;
     margin: 0 auto;
     padding: 0;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .main-list__item {
@@ -52,7 +96,8 @@
 }
 
 .main-list__item-img {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: auto;
     margin-bottom: 18px;
 }
@@ -76,12 +121,19 @@
     display: block;
 }
 
+.main-headline {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+ }
+
 .main-list__item-partner1::before {
     position: absolute;
     width: 40px;
     height: 40px;
     top: 85px;
     left: 60%;
+    z-index: 1;
 
 
     content: "";
@@ -150,10 +202,10 @@
 
 .main-list__item-description {
     font-family: 'Roboto', Arial, sans-serif;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 14px;
     color: #666666;
-    line-height: 1.2;
+    line-height: 1.4;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -164,6 +216,9 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    font-family: 'roboto', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
     width: 260px;
     color: #ff4e50;
     background-color: #fff;
@@ -188,6 +243,29 @@
         margin: auto;
         padding-top: 34px;
     }
+
+    .wrapper-row__headline {
+        font-size: 51px;
+    }
+
+    .wrapper-box__headline-margin {
+        margin-bottom: 50px;
+    }
+
+    .wrapper-row__text {
+        font-size: 24px;
+        margin-bottom: 40px;
+    } 
+        
+    .main-headline {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+
+
+
+    
 
 @media (min-width: 960px) {
     .wrapper {
